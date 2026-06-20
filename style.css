@@ -566,7 +566,33 @@
         padding: 120px 24px 60px;
       }
 
+@media (max-width: 768px) {
 
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .skills-box {
+    width: 100%;
+  }
+
+  .skills-box div {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+}
 
 
 
